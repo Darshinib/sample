@@ -1,46 +1,63 @@
 .logo {
 	float: left;
-	width: 8vw;
+	width: 9vw;
 	height: 4vw;
-	margin: 2vw;
-	margin-left: 4vw;
+	margin: 1.8vw;
+	margin-left: 0.8vw;
 }
-header {
+.header {
 	font-family: georgia;
-	line-height: 9vw;
+	line-height: 8.8vw;
 	text-align: center;
 	background-color: whitesmoke;
 	font-size: 3vw;
 	border-bottom-style: solid;
 }
 body {
-	background: url(image1.jpeg);
+	background: url(image1.JPEG);
 	opacity: 0.8;
-	background-size: 100vw 70vw;
+	background-size: cover;
 }
 *
 {
 	margin: 0px;
 }
-nav ul li {
+.nav ul li {
   list-style-type: none;
   margin: 0px;
   padding: 0;
-  width: 8.8vw;
-  margin-left: -3.2vw;
-  height: 6vw;
+  width: 113px;
+  margin-left: -40px;
+  height: 70px;
 }
-nav ul li a{
+.nav ul li a{
   text-decoration: none;
-line-height: 3.6vw;
+line-height: 40px;
 color:  whitesmoke;
 font-family: georgia;
 display: block;
-padding: 1vw 1.5vw;
-font-size: 1.2vw;
+padding: 15px 15px;
+font-size: 16px;
 background-color: black;
 border-style: solid;
 }
-li a:hover {
+.nav li a:hover {
   background-color: #055b92;
 }
+
+[class*="col-"] {
+  float: left;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 26.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
