@@ -1,21 +1,33 @@
 .logo {
 	float: left;
-	width: 9vw;
-	height: 4vw;
-	margin: 1.8vw;
-	margin-left: 0.8vw;
+	width: 100px;
+	height: 40px;
+	margin: 22px;
+	margin-left: 10px;
 }
 .header {
 	font-family: georgia;
-	line-height: 8.8vw;
+	line-height: 115px;
 	text-align: center;
 	background-color: whitesmoke;
-	font-size: 3vw;
+	font-size: 40px;
 	border-bottom-style: solid;
+}
+@media screen and (max-width: 500px) {
+  .header {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .logo {
+    float: none;
+  }
 }
 body {
 	background: url(image1.jpeg);
 	opacity: 0.8;
+	background-size: cover;
 }
 *
 {
