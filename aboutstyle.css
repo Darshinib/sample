@@ -17,6 +17,7 @@
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
+  background-color: #055b92;
 }
 .text {
   color: black;
@@ -84,4 +85,14 @@
   font-family: verdana;
   color: white;
   padding: 15px;
+}
+.footer {
+  font-size: 15px;
+  font-family: verdana;
+  text-align: center;
+  background-color: #055b92;
+  height: 60px;
+  color: white;
+  margin-top: 10px;
+  padding-top: 30px;
 }
